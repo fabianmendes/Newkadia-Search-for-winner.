@@ -14,7 +14,7 @@ class Person():
 #word = input("Enter a word: ")#take use input and store
 #YOUR_NAME = ...and maybe their email! Probably to invite them to Projectboard
 r = requests.get("https://www.newkadia.com/?Comic_pag=Comic-Books-Collecting-Ideas")
-#	Line 4: you ente any website you want to scrape. So up there i have Merriam-Webster site and ".format(word)" is basically telling programm to search the link and at the add word variable.
+#	Line 4: you enter any website you want to scrape. So up there i have Merriam-Webster site and ".format(word)" is basically telling programm to search the link and at the add word variable.
 #	{} mean that where we are going to paste our word variable
 
 soup = BeautifulSoup(r.content, "html.parser")
